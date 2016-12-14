@@ -389,91 +389,120 @@
                         <form role="form">
                             <div class="box-body">
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="nome">Nome:</label>
                                             <input class="form-control " id="nome"
-                                                   type="text" name="nome" required>
+                                                   type="text" name="nome" value="Alexandre Pierce Paciente" required>
                                         </div>
                                         <div class="form-group">
                                             <label for="nome">Sexo:</label>
                                             <select class="form-control " id="sexo" name="sexo" required>
                                                 <option value=""></option>
-                                                <option value="Masculino">Masculino</option>
+                                                <option value="Masculino" selected>Masculino</option>
                                                 <option value="Feminino">Feminino</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">Nome do pai:</label>
-                                            <input class="form-control " id="nome_pai" placeholder=""
-                                                   type="text" name="nome_pai">
+                                            <label for="nome">Telefone residencial:</label>
+                                            <input class="form-control telefone" id="telefone_residencial"
+                                                   type="text" name="telefone_residencial" value="(83) 9 9877-8989">
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">Nome da mae:</label>
-                                            <input class="form-control " id="nome_mae"
-                                                   type="text" name="nome_mae">
+                                            <label for="nome">CPF:</label>
+                                            <input class="form-control " id="cpf"
+                                                   type="cpf" name="cpf" value="109.908.898-10">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nome">Nome do pai:</label>
+                                            <input class="form-control " id="nome_pai" placeholder=""
+                                                   type="text" name="nome_pai" value="Alexandre Pierce Paciente">
                                         </div>
                                         <div class="form-group">
                                             <label for="nome">Data de nascimento:</label>
                                             <input class="form-control  datepicker" id="data_nascimento"
-                                                   type="text" name="data_nascimento" required>
+                                                   type="text" name="data_nascimento" value="30/12/1970" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nome">Tipo Sanguíneo:</label>
+                                            <input class="form-control " id="cpf"
+                                                   type="cpf" name="cpf" value="O+">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="nome">Senha:</label>
+                                            <input class="form-control " id="cpf"
+                                                   type="cpf" name="cpf" value="P9088">
                                         </div>
                                         <div class="form-group">
                                             <label for="nome">Estado civil:</label>
                                             <select class="form-control " id="estado_civil" name="estado_civil">
                                                 <option value=""></option>
-                                                <option value="Solteiro(a)">Solteiro(a)</option>
+                                                <option value="Solteiro(a)" selected>Solteiro(a)</option>
                                                 <option value="Casado(a)">Casado(a)</option>
                                                 <option value="Viuvo(a)">Viuvo(a)</option>
                                                 <option value="Divorciado(a)">Divorciado(a)</option>
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">Idade:</label>
-                                            <input class="form-control " id="idade"
-                                                   type="number" min="0" max="100" name="idade">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label for="nome">Email:</label>
-                                            <input class="form-control " id="email"
-                                                   type="email" name="email">
+                                            <label for="telefone_celular">Telefone celular:</label>
+                                            <input class="form-control telefone" id="telefone_celular"
+                                                   type="text" name="telefone_celular" value="(83) 9 9877-8989">
                                         </div>
                                         <div class="form-group">
                                             <label for="nome">RG:</label>
                                             <input class="form-control " id="rg"
-                                                   type="text" name="text">
+                                                   type="text" name="text" value="89830992-X">
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">CPF:</label>
-                                            <input class="form-control " id="cpf"
-                                                   type="cpf" name="cpf">
+                                            <label for="nome">Nome da mae:</label>
+                                            <input class="form-control " id="nome_mae"
+                                                   type="text" name="nome_mae" value="Alexandre Pierce Paciente">
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">Tipo Sanguíneo:</label>
-                                            <input class="form-control " id="cpf"
-                                                   type="cpf" name="cpf">
+                                            <label for="nome">Idade:</label>
+                                            <input class="form-control " id="idade"
+                                                   type="number" min="0" max="100" name="idade" value="39">
                                         </div>
                                         <div class="form-group">
-                                            <label for="nome">Senha:</label>
-                                            <input class="form-control " id="cpf"
-                                                   type="cpf" name="cpf" value="P9088">
+                                            <label for="nome">Email:</label>
+                                            <input class="form-control " id="email"
+                                                   type="email" name="email" value="fulanocilano@batom.com">
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="box-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="cep">CEP:</label>
 
+                                            <div class="input-group">
+                                                <input class="form-control cep" id="cep"
+                                                       type="text" name="cep" value="58423-540">
+                                                <span class="input-group-btn">
+                                                    <button id="busca_cep" class="btn btn-default" type="button">Buscar <i
+                                                            class="fa fa-angle-right"></i></button>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="endereco">Endereco:</label>
+                                            <input class="form-control " id="endereco"
+                                                   type="text" name="endereco" value="Rua José Pinheiro">
+                                        </div>
                                         <div class="form-group">
                                             <label for="nome">Bairro:</label>
                                             <input class="form-control " id="bairro"
-                                                   type="text" name="bairro">
+                                                   type="text" name="bairro" value="Catolé">
                                         </div>
-                                        <div class="form-group">
-                                            <label for="nome">Cidade:</label>
-                                            <input class="form-control " id="cidade"
-                                                   type="text" name="cidade">
-                                        </div>
-
-                                    </div>
-                                    <div class="col-md-4">
                                         <div class="form-group">
                                             <label for="nome">Estado:</label>
                                             <select class="form-control " id="estado" name="estado">
@@ -492,7 +521,7 @@
                                                 <option value="MT">Mato Grosso</option>
                                                 <option value="MG">Minas Gerais</option>
                                                 <option value="PA">Para</option>
-                                                <option value="PB">Paraiba</option>
+                                                <option value="PB" selected>Paraiba</option>
                                                 <option value="PR">Parana</option>
                                                 <option value="PE">Pernambuco</option>
                                                 <option value="PI">Piaui</option>
@@ -507,46 +536,33 @@
                                                 <option value="TO">Tocantins</option>
                                             </select>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="nome">Telefone residencial:</label>
-                                            <input class="form-control telefone" id="telefone_residencial"
-                                                   type="text" name="telefone_residencial">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="telefone_celular">Telefone celular:</label>
-                                            <input class="form-control telefone" id="telefone_celular"
-                                                   type="text" name="telefone_celular">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="cep">CEP:</label>
-
-                                            <div class="input-group">
-                                                <input class="form-control cep" id="cep"
-                                                       type="text" name="cep">
-                                        <span class="input-group-btn">
-                                            <button id="busca_cep" class="btn btn-default" type="button">Buscar <i
-                                                    class="fa fa-angle-right"></i></button>
-                                        </span>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="endereco">Endereco:</label>
-                                            <input class="form-control " id="endereco"
-                                                   type="text" name="endereco">
-                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="nome">Numero:</label>
                                             <input class="form-control " id="numero"
-                                                   type="number" min="0" name="numero">
+                                                   type="number" min="0" name="numero" value="300">
                                         </div>
+
+                                        <div class="form-group">
+                                            <label for="nome">Cidade:</label>
+                                            <input class="form-control " id="cidade"
+                                                   type="text" name="cidade" value="Campina Grande">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="nome">País:</label>
+                                            <input class="form-control " id="pais"
+                                                   type="text" name="pais" value="Brasil">
+                                        </div>
+
                                     </div>
                                 </div>
                             </div>
                             <!-- /.box-body -->
 
                             <div class="box-footer">
-                                <button type="submit" class="btn btn-default pull-left">Cancelar</button>
-                                <button type="submit" class="btn btn-primary pull-right">Cadastrar</button>
+                                <button type="submit" class="btn btn-default pull-left">Voltar</button>
+                                <button type="submit" class="btn btn-primary pull-right">Editar</button>
                             </div>
                         </form>
                     </div>
